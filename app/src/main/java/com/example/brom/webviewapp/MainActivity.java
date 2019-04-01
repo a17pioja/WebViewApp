@@ -31,10 +31,12 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = new WebView(this);
         // -- Commit and push to your github fork
         // 3. Locate the WebView element created in step 1 using the ID created in step 2
+        setContentView(webView);
         // 4. Create a new WebViewClient to attach to our WebView. This allows us to
         //    browse the web inside our app.
         // -- Commit and push to your github fork
         // 5. Enter the url to load in our WebView
+        webView.loadUrl("https://google.se");
         // -- Commit and push to your github fork
     }
 
