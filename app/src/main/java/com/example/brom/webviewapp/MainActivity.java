@@ -20,25 +20,21 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // The FAB-code can be removed
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+
         // 1. Create a WebView element in the layout file content_main.xml
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
         // Enter your code that creates your WebView here...
+        WebView webView = new WebView(this);
         // -- Commit and push to your github fork
         // 3. Locate the WebView element created in step 1 using the ID created in step 2
+        setContentView(webView);
         // 4. Create a new WebViewClient to attach to our WebView. This allows us to
         //    browse the web inside our app.
         // -- Commit and push to your github fork
         // 5. Enter the url to load in our WebView
+        webView.loadUrl("https://google.se");
         // -- Commit and push to your github fork
     }
 
