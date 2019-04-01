@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
         // Enter your code that creates your WebView here...
+        WebView webView = new WebView(this);
         // -- Commit and push to your github fork
         // 3. Locate the WebView element created in step 1 using the ID created in step 2
         // 4. Create a new WebViewClient to attach to our WebView. This allows us to
