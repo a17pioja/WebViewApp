@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
     // Create a private member variable that can hold our WebView
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        WebView webview = (WebView) findViewById(R.id.my_webview);
         setSupportActionBar(toolbar);
 
 
@@ -26,15 +28,12 @@ public class MainActivity extends AppCompatActivity {
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
         // Enter your code that creates your WebView here...
-        WebView webView = new WebView(this);
         // -- Commit and push to your github fork
         // 3. Locate the WebView element created in step 1 using the ID created in step 2
-        setContentView(webView);
         // 4. Create a new WebViewClient to attach to our WebView. This allows us to
         //    browse the web inside our app.
         // -- Commit and push to your github fork
         // 5. Enter the url to load in our WebView
-        webView.loadUrl("https://google.se");
         // -- Commit and push to your github fork
     }
 
