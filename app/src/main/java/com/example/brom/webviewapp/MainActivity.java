@@ -22,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-
-
+        /*
+        WebView webView = new WebView(this);
+        setContentView(webView);
+        webView.loadUrl("https:/scio.his.se");
+        */
         // 1. Create a WebView element in the layout file content_main.xml
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
@@ -37,7 +40,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(webView);
         // -- Commit and push to your github fork
         // 5. Enter the url to load in our WebView
-        webView.loadUrl("https://google.se");
+
+        webView.loadUrl("http://wwwlab.iit.his.se/a17pioja/Mobilapplikationsdesign/App%20Prototyp/html/lottery.html");
+
+        //webView.loadUrl("file:///android_asset/html/file.html");
+
+        //"file:///android_asset/first.html"
         // -- Commit and push to your github fork
     }
 
