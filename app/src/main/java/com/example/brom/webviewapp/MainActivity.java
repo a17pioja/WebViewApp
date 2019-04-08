@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            webView.loadUrl("file:///android_asset/html/file.html");
             return true;
         }
 
