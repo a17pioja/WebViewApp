@@ -4,7 +4,12 @@
     tools:context="com.example.brom.webviewapp.MainActivity">
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="10"
         android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ext_url"
+        android:orderInCategory="20"
+        android:title="@string/action_ext_url"
         app:showAsAction="never" />
 </menu>
