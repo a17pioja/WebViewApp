@@ -68,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
             webView.loadUrl("file:///android_asset/html/file.html");
             return true;
         }
+        else if(id==R.id.action_ext_url) {
+            webView.loadUrl("http://wwwlab.iit.his.se/a17pioja/Mobilapplikationsdesign/App%20Prototyp/html/lottery.html");
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
