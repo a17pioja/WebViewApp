@@ -19,14 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
         setSupportActionBar(toolbar);
-
-        /*
-        WebView webView = new WebView(this);
-        setContentView(webView);
-        webView.loadUrl("https:/scio.his.se");
-        */
         // 1. Create a WebView element in the layout file content_main.xml
         // -- Commit and push to your github fork
         // 2. Give the WebView element created in step 1 ID "my_webview"
@@ -40,13 +33,7 @@ public class MainActivity extends AppCompatActivity {
             //setContentView(webView);
         // -- Commit and push to your github fork
         // 5. Enter the url to load in our WebView
-
         webView.loadUrl("http://wwwlab.iit.his.se/a17pioja/Mobilapplikationsdesign/App%20Prototyp/html/lottery.html");
-
-        //webView.loadUrl("file:///android_asset/html/file.html");
-
-        //"file:///android_asset/first.html"
-        // -- Commit and push to your github fork
     }
 
     @Override
@@ -62,8 +49,7 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
+        
         if (id == R.id.action_settings) {
             webView.loadUrl("file:///android_asset/html/file.html");
             return true;

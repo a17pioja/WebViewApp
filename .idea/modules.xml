@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WebViewApp.iml" filepath="$PROJECT_DIR$/WebViewApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/a17pioja-assignment1.iml" filepath="$PROJECT_DIR$/a17pioja-assignment1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/a17pioja-assignment1.iml" filepath="$PROJECT_DIR$/a17pioja-assignment1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szmata.iml" filepath="$PROJECT_DIR$/szmata.iml" />
     </modules>
   </component>
 </project>

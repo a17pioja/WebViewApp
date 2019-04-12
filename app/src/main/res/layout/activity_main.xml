@@ -19,7 +19,7 @@
             android:background="#cccccc"
             android:elevation="1dp"
             android:fontFamily="monospace"
-            android:text="a17pioja webview"
+            android:text="a17pioja-assignment1"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
             android:textColor="#777"
